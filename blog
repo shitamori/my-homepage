@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ぼくのホームページ</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background-color: #e0f7fa;
+      padding: 50px;
+    }
+    h1 {
+      color: #0077b6;
+    }
+    .button {
+      display: inline-block;
+      margin: 15px;
+      padding: 15px 30px;
+      background-color: #00b4d8;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+    .button:hover {
+      background-color: #0096c7;
+    }
+  </style>
+</head>
+<body>
+  <h1>ようこそ！ぼくのホームページへ🌊</h1>
+  <p>ここでは自己紹介や日記を読めるよ～！</p>
+
+  <a href="about.html" class="button">自己紹介</a>
+  <a href="daily.html" class="button">日常ブログ</a>
+  <a href="world.html" class="button">海外ブログ</a>
+</body>
+</html>
